@@ -1,3 +1,4 @@
+"""
 class Persona:
     def __init__(self,nombre,apellido,saludo,email):
         self.nombre = nombre
@@ -10,3 +11,8 @@ class Persona:
         return f"Nombre:{self.nombre},Apellido:{self.apellido},Saludo:{self.saludo},Email:{self.email}"
     
 objPersona = Persona("Jose","Perez","Hello","j@email.com")
+"""
+import random
+
+for i in range(1,100):
+    print(random.randint(2,90))
